@@ -8,8 +8,6 @@ import json
 # Add root directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
  
-# Import from config package
-from config import Config
 from frontend.utils import process_query, sidebar, create_visualization_from_mcp, render_chart, get_mcp_server_url
  
 # Replace:

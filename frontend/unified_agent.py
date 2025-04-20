@@ -77,7 +77,7 @@ class UnifiedAgent:
         """Ensure we have a working MCP client"""
         if self.mcp_client is None:
             try:
-                from frontend.custom_mcp_client import MCPClient
+                from agents.custom_mcp_client import MCPClient
                 # Connect to the unified MCP server on port 8000
                 self.mcp_client = MCPClient("marketscope")
                 

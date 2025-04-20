@@ -17,7 +17,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 
 from frontend.config import Config
 from frontend.utils import sidebar
-from agents.unified_agent import unified_agent
+import unified_agent
 
 # Set page config to full width
 st.set_page_config(
