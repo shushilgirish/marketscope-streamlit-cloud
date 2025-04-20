@@ -1,25 +1,30 @@
-# Streamlit & Core
+# ─────────────────────────────────────────────────
+# Streamlit & App Infrastructure
 streamlit>=1.26.0
 python-dotenv>=1.0.0
 requests
 aiohttp>=3.8.5
 httpx>=0.24.1
 
-# Data Science & Visualization
+# ─────────────────────────────────────────────────
+# Data & Visualization
 pandas>=2.0.3
 numpy>=1.24.3
 matplotlib>=3.7.2
 seaborn
 Pillow
 
-# LangChain & LLM
+# ─────────────────────────────────────────────────
+# LLM / Embeddings
 openai>=1.1.0
+sentence-transformers==2.2.2
+huggingface-hub>=0.10.0,<0.13.0    # 🛠 pin so cached_download still exists
 langchain>=0.0.267
 langchain-community>=0.0.10
 langgraph>=0.0.20
-sentence-transformers==2.2.2
 
-# Vector DBs & Cloud
-pinecone  # ✅ Use this instead of `pinecone-client`
+# ─────────────────────────────────────────────────
+# Vector DB & Cloud Storage
+pinecone                       # new name for pinecone-client
 boto3>=1.28.40
 s3fs>=2023.6.0
