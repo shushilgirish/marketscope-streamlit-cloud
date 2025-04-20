@@ -11,7 +11,7 @@ Pillow
 
 # LLM / embeddings
 huggingface-hub>=0.10.0,<0.13.0
-tokenizers==0.13.3
+tokenizers           # pulls compatible wheel on 3.11
 openai>=1.1.0
 sentence-transformers==2.2.2
 langchain>=0.0.267
@@ -21,7 +21,7 @@ langgraph>=0.0.20
 # Vector DB & cloud
 pinecone
 boto3>=1.28.40
-s3fs>=2023.6.0
+s3fs>=2023.6.0         # on 3.11 the backtracking is fine
 
 # HTTP clients
 requests
