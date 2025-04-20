@@ -1,0 +1,16 @@
+streamlit
+pandas
+numpy
+matplotlib
+requests
+python-dotenv
+openai
+pinecone-client
+boto3
+litellm
+langchain-core
+langchain
+langgraph
+anthropic
+aiohttp
+httpx
