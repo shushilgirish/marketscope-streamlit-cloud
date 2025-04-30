@@ -185,12 +185,12 @@ class MCPClient:
     
     # Map of service names to their base URLs
     SERVICE_URLS = {
-        "snowflake": "http://34.172.249.210:8004",  
-        "market_analysis": "http://34.172.249.210:8001",
-        "segment": "http://34.172.249.210:8003",
-        "sales_analytics": "http://34.172.249.210:8002",
-        "unified": f"http://34.172.249.210:{Config.MCP_PORT}",
-        "marketscope": f"http://34.172.249.210:{Config.MCP_PORT}"
+        "snowflake": "http://34.60.88.1:8004",  
+        "market_analysis": "http://34.60.88.1:8001",
+        "segment": "http://34.60.88.1:8003",
+        "sales_analytics": "http://34.60.88.1:8002",
+        "unified": f"http://34.60.88.1:{Config.MCP_PORT}",
+        "marketscope": f"http://34.60.88.1:{Config.MCP_PORT}"
     }
     
     # Class-level event loop manager

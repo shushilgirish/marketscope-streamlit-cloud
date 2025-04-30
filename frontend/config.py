@@ -61,10 +61,10 @@ class Config:
     MARKET_MCP_PORT = 8003  # Market analysis MCP server
     
     # Server base URLs - use environment variables if available
-    MCP_SERVER_URL = os.getenv("MCP_SERVER_URL", "http://34.172.249.210:8000")
-    SALES_MCP_URL = os.getenv("SALES_MCP_URL", "http://34.172.249.210:8002")
-    MARKET_MCP_URL = os.getenv("MARKET_MCP_URL", "http://34.172.249.210:8003")
-    SNOWFLAKE_MCP_URL = os.getenv("SNOWFLAKE_MCP_URL", "http://34.172.249.210:8004")
+    MCP_SERVER_URL = os.getenv("MCP_SERVER_URL", "http://34.60.88.1:8000")
+    SALES_MCP_URL = os.getenv("SALES_MCP_URL", "http://34.60.88.1:8002")
+    MARKET_MCP_URL = os.getenv("MARKET_MCP_URL", "http://34.60.88.1:8003")
+    SNOWFLAKE_MCP_URL = os.getenv("SNOWFLAKE_MCP_URL", "http://34.60.88.1:8004")
     
     # Service URLs mapping
     SERVICE_URLS = {
